@@ -1,8 +1,8 @@
 class Saystop < Formula
-  desc "Floating stop button for macOS say speech output"
+  desc "Floating stop/pause panel for macOS say speech output"
   homepage "https://github.com/DevArtsLab/saystop"
-  url "https://github.com/DevArtsLab/saystop/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "8131e93d90e2f5548d109cae311deea16197c550d07225033b160bed9a23c6cf"
+  url "https://github.com/DevArtsLab/saystop/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "7500da6551f533fc9a4912a0403010218519596b5a83bf8e71755f2d52e5f232"
   license "MIT"
 
   uses_from_macos "swift" => :build
@@ -15,7 +15,7 @@ class Saystop < Formula
 
   def caveats
     <<~EOS
-      To give every `say` call the floating stop button, run:
+      To give every `say` call the floating stop/pause panel, run:
         saystop --install-shim
     EOS
   end
