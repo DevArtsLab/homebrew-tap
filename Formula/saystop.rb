@@ -1,8 +1,8 @@
 class Saystop < Formula
   desc "Floating stop/pause panel for macOS say speech output"
   homepage "https://github.com/DevArtsLab/saystop"
-  url "https://github.com/DevArtsLab/saystop/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "d1cc9f0a5f0a0c9e17850cd2bea78a5057dd07e7a8271afef325fd6128b16ff3"
+  url "https://github.com/DevArtsLab/saystop/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "970f54d3c9bb0b029097bc230385a1048201e1bc8d19fd93b83641c6d17612e2"
   license "MIT"
 
   uses_from_macos "swift" => :build
